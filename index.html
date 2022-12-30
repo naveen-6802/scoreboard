@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Scoreboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="cmain">
+                <h3 class="team-name">PORTUGAL</h3>
+                <div class="score" id="p-score">0</div>
+                <div class="buttons">
+                 <button onclick="pOne()">+ 1</button>
+                 <button onclick="pTwo()">+2</button>
+                 <button onclick="pThree()">+3</button>
+                </div>
+            </div>
+            <div class="cmain">
+                <h3 class="team-name">ARGENTINA</h3>
+                <div class="score" id="a-score">0</div>
+                <div class="buttons">
+                    <button onclick="aOne()">+ 1</button>
+                    <button onclick="aTwo()">+2</button>
+                    <button onclick="aThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="cmain">
+                <h3 class="team-name">PERIOD</h3>
+                <div class="score" id="period">0</div>
+                <div class="buttons">
+                 <button onclick="peOne()">+ 1</button>
+                </div>
+            </div>
+            <div class="cmain">
+                <h3 class="team-name">FOULS</h3>
+                <div class="score" id="fouls">0</div>
+                <div class="buttons">
+                    <button onclick="fOne()">+ 1</button>
+                    <button onclick="fTwo()">+2</button>
+                    <button onclick="fThree()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="ng" onclick="newGame()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html> 
